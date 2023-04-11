@@ -202,4 +202,4 @@ SIMPLE_JWT = {
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
 
-AUTHENTICATION_SERVICE = 'http://127.0.0.1:8000'
+AUTHENTICATION_SERVICE = 'https://auth-sevice.up.railway.app'
