@@ -1,3 +1,14 @@
 from django.contrib import admin
 
-# Register your models here.
+from apps.absent.models import Absent
+
+
+@admin.register(Absent)
+class AbsentAdmin(admin.ModelAdmin):
+    list_display = [
+        'id',
+        'journal',
+        'student_id',
+        'date',
+        'schedule',
+    ]

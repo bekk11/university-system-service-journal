@@ -5,4 +5,5 @@ urlpatterns = [
     path('course/', include('apps.course.urls')),
 
     path('schedule/', include('apps.timetable.urls')),
+    path('absent/', include('apps.absent.urls')),
 ]
